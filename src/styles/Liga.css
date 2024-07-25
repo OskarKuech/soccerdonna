@@ -1,0 +1,27 @@
+.headline {
+    display: flex;
+    padding: 4px 8px;
+    align-items: flex-start;
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: 700;
+    gap: 8px;
+}
+
+.team {
+    display: flex;
+    width: 120px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.live-spiel {
+    display: flex;
+    width: 352px;
+    max-width: 352px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px;
+    box-sizing: border-box;
+}

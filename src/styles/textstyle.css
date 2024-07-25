@@ -1,0 +1,61 @@
+.verdana12regular {
+    font-size: 12px;
+    margin: 0;
+}
+
+.verdana12bold {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.verdana14regular {
+    font-size: 14px;
+    margin: 0;
+}
+
+.verdana14bold {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.verdana16regular {
+    font-size: 16px;
+    margin: 0;
+}
+
+.verdana16bold {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.verdana18regular {
+    font-size: 18px;
+    margin: 0;
+}
+
+.verdana18bold {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.verdana24bold {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.verdana30bold {
+    font-size: 30px;
+    font-weight: 700;
+    margin: auto;
+}
+
+.centered {
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
