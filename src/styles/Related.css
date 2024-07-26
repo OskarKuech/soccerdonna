@@ -1,0 +1,94 @@
+.related-container {
+    display: inline-flex;
+    padding: 16px;
+    gap: 16px;
+    border-radius: 4px;
+}
+
+.related-container img {
+    display: flex;
+    width: 80px;
+    min-height: 80px;
+    max-height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 2px;
+    object-fit: contain;
+}
+
+.related {
+    display: flex;
+    width: 224px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.related p {
+    font-family: Verdana;
+    font-size: 12px;
+    margin: 0;
+}
+
+
+.related-name {
+    display: flex;
+    padding: 2px 0px;
+    gap: 10px;
+}
+
+.related-name p {
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.related-attribute-row {
+    width:224px;
+    display: flex;
+}
+
+.related-attribute-title {
+    display: flex;
+    max-width: 100px;
+    align-items: flex-start;
+    flex: 1 0 0;
+}
+
+.related-attribute-input {
+    width: 124px;
+    display: flex;
+    align-items: flex-start;
+    flex: 1 0 0;    
+}
+
+.competition {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.competition img{
+    display: flex;
+    width: 80px;
+    height: 40px;
+    align-items: flex-start;
+    object-fit: contain;
+}
+
+.competition-name {
+    max-width: 240px;
+    display: flex;
+    align-items: center;
+}
+
+.competition-name p {
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}

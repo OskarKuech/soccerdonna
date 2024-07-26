@@ -19,6 +19,16 @@
     box-sizing: border-box;
 }
 
+.article-frame-outline {
+    width: 848px;
+    display: flex;
+    border-radius: 4px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    box-sizing: border-box;
+}
+
 .live-feed-frame {
     display: flex;
     width: 384px;
@@ -40,7 +50,7 @@
     box-sizing: border-box;
 }
 
-.preview-klein-frame {
+.preview-small-frame {
     display: flex;
     max-width: 800px;
     align-items: flex-start;

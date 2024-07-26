@@ -1,11 +1,13 @@
 import React from 'react';
-import FullFrame from './Components/Frames/LandingPage';
+// import LandingPage from './Pages/LandingPage';
+import Article from './Pages/Artikel';
 import './styles/App.css';
 
 function App() {
   return (
     <div className = "App">
-      <FullFrame />
+      {/* <LandingPage /> */}
+      <Article />
     </div>
   );
 }

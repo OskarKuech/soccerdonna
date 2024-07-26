@@ -7,7 +7,7 @@ import LiveSpiel from '../LiveFeed/LiveSpiel';
 const LiveFeed = () => {
     return (
         <div className="live-feed">
-            <Überschrift />
+            <Überschrift league="Bundesliga"/>
             <Trennlinie />
             <LiveSpiel teamNameHome="Eintracht Frankfurt" teamNameAway="Eintracht Frankfurt" score="2 : 3" />
             <Trennlinie />

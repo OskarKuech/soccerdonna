@@ -6,13 +6,13 @@ interface ArtikelProps {
     headline: string;
     text: string;
 }
-const PreviewKleinBeschreibung: React.FC<ArtikelProps> = ({ headline, text }) => {
+const PreviewSmallDescription: React.FC<ArtikelProps> = ({ headline, text }) => {
     return (
-        <div className="preview-klein-beschreibung">
+        <div className="preview-small-description">
             <h1 className="verdana14bold">{headline}</h1>
             <p className="verdana14regular">{text}</p>
         </div>
     );
     }
 
-export default PreviewKleinBeschreibung;
+export default PreviewSmallDescription;

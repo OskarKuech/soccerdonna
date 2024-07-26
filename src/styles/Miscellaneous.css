@@ -4,6 +4,12 @@
     background-color: #D9D9D9;
 }
 
+.trennlinie-large {
+    height: 1px;
+    width: 100%;
+    background-color: #D9D9D9;
+}
+
 .height60 {
     height: 60px;
 }

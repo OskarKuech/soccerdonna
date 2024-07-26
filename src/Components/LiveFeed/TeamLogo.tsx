@@ -4,7 +4,7 @@ import "../../styles/Logo.css";
 const TeamLogo = () => {
     return (
         <div className="logo60">
-            <img src="/logos/Eintracht_Frankfurt.svg" alt="Team Logo" />
+            <img src="/logo/club/Eintracht_Frankfurt.svg" alt="Team Logo" />
         </div>
     );
 }

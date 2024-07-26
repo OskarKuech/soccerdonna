@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/Article.css";
 import "../../styles/textstyle.css";
-import PreviewKleinBeschreibung from "./PreviewKleinBeschreibung";
+import PreviewSmallDescription from "./PreviewSmallDescription";
 
 interface ArtikelProps {
     image: string;
@@ -9,14 +9,14 @@ interface ArtikelProps {
     text: string;
     date: string;
 }
-const PreviewKlein: React.FC<ArtikelProps> = ({ image, headline, text, date }) => {
+const PreviewSmall: React.FC<ArtikelProps> = ({ image, headline, text, date }) => {
     return (
-        <div className="preview-klein">
+        <div className="preview-small">
             <img src={image} alt={headline} />
-            <PreviewKleinBeschreibung headline={headline} text={text} />
+            <PreviewSmallDescription headline={headline} text={text} />
             <p className="verdana12regular">{date}</p>
         </div>
     );
 }
 
-export default PreviewKlein;
+export default PreviewSmall;
