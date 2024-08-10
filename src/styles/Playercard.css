@@ -1,0 +1,106 @@
+.playercard {
+    display: flex;
+    position: relative;
+    width: 280px;
+    height: 280px;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 2px;
+    background-color: var(--background-grey);
+    flex-shrink: 0;
+}
+
+.playercard img {
+    width: 280px;
+    height: 280px;
+    object-fit: contain;
+}
+
+.playercard-info {
+    display: flex;
+    position: absolute;
+    width: 280px;
+    height: 160px;
+    padding: 24px 0px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.playercard-name {
+    display: flex;
+    max-width: 260px;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 0px 6px;
+    flex-wrap: wrap;
+}
+
+.playercard-name p {
+    font-family: Verdana;
+    font-size: 18px;
+    margin: 0px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.playercard-name p:nth-child(1),
+.playercard-name p:nth-child(3) {
+    font-weight: bold;
+}
+
+.playercard-attribute-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.playercard-attribute {
+    display: flex;
+    height: 38px;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.playercard-attribute p{
+    font-family: Verdana;
+    font-size: 12px;
+    margin: 0px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.playercard-attribute p:nth-child(1) {
+    font-size: 14px;
+}
+
+.playercard-attribute p:nth-child(2) {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.playercard-info-hover {
+    display: flex;
+    position: absolute;  
+    width: 280px;
+    height: 160px;
+    padding: 24px 0px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+}
+
+.gradient-background {
+    background: linear-gradient(180deg, rgba(102, 102, 102, 0.00) 0%, rgba(0, 0, 0, 0.50) 75%);
+    height: 160px;
+    border-radius: 0px 0px 2px 2px;
+}
+
+.divider {
+    width: 220px;
+    height: 0.5px;
+    background-color: white;
+}

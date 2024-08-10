@@ -1,0 +1,148 @@
+.transfers {
+    display: flex;
+    width: 1280px;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    background-color: white;
+}
+
+.transfers-container {
+    display: flex;
+    width: 1232px;
+    padding: 0px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+.headline {
+    display: flex;
+    padding: 0px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.headline p {
+    font-family: Verdana;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.table {
+    display: flex;
+    width: 1232px;
+    padding: 16px;
+    align-items: center;
+    gap: 32px;
+}
+
+.table p{
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.table-name {
+    display: flex;
+    width: 412px;
+    align-items: flex-start;
+}
+
+.table-age {
+    display: flex;
+    width: 80px;
+    align-items: flex-start;
+}
+
+.table-nationality {
+    display: flex;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.table-club {
+    display: flex;
+    width: 320px;
+    align-items: flex-start;
+}
+
+.table-fee {
+    display: flex;
+    width: 180px;
+    align-items: flex-start;
+}
+
+.player {
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    padding: 16px;
+    gap: 32px;
+}
+
+.transfer-player-image {
+    display: flex;
+    width: 60px;
+    height: 80px;
+}
+
+.transfer-player-image img{
+    display: flex;
+    width: 60px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.player-name-position {
+    display: flex;
+    width: 320px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.player-age {
+    display: flex;
+    width: 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.player-nationality {
+    display: flex;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-club-league {
+    display: flex;
+    width: 320px;
+    align-items: center;
+    gap: 32px;
+}
+
+.player-club {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.player-league {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.player-fee {
+    display: flex;
+    width: 180px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}

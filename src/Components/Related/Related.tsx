@@ -1,5 +1,5 @@
 import React from "react";
-import Überschrift from '../LiveFeed/Überschrift';
+import Überschrift from '../Feeds/Überschrift';
 import Trennlinie from "../Trennlinie";
 import Player from "./Player";
 import Club from "./Club";

@@ -1,0 +1,142 @@
+.menu {
+    display: flex;
+    width: 1280px;
+    align-items: center;
+    background-color: var(--dark-green);
+}
+
+.menu-bar {
+    display: flex;
+    width: 1280px;
+    padding: 16px 24px;
+    align-items: center;
+}
+
+.menus {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+.menus img {
+    height: 32px;
+    object-fit: contain;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.menu-item p {
+    font-size: 18px;
+    color: white;
+}
+
+.menu-item img {
+    width: 24px;
+    object-fit: contain;
+}
+
+.menu-icons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.menu-icons img{
+    width: 32px;
+    object-fit: contain;
+}
+
+.menu-dropdown {
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 0px 0px 4px 4px;
+    background: #4C8522;
+}
+
+.menu-dropdown-list {
+    display: flex;
+    width: 200px;
+    padding: 0px 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.menu-dropdown-list-content {
+    display: flex;
+    width: 188px;
+    padding: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 4px;
+}
+
+.menu-dropdown-list-content:hover {
+    background: var(--dark-green);
+    cursor: pointer;
+}
+
+.menu-dropdown-list-content p {
+    font-size: 14px;
+    color: white;
+}
+
+.menu-dropdown-group {
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    border-radius: 4px;
+    background: #EDEEF0;
+}
+
+.menu-dropdown-haha {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.menu-dropdown-group-content {
+    display: flex;
+    width: 188px;
+    padding: 6px;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 4px;
+}
+
+.menu-dropdown-group-content img {
+    max-height: 16px;
+    width: 16px;
+    object-fit: contain;
+}
+
+.menu-dropdown-group-content p {
+    font-size: 12px;
+}
+
+.menu-dropdown-group-content-headline {
+    min-height: 12px;
+}
+
+.menu-dropdown-group-content-headline p {
+    font-size: 10px;
+}
+
+.menu-dropdown-group-content:hover {
+    background: white;
+    cursor: pointer;
+}

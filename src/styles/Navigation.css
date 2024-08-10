@@ -1,0 +1,42 @@
+.navigation-frame {
+    display: flex;
+    padding: 0px 24px;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.navigation-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.text-frame {
+    display: flex;
+    padding: 0px 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-frame p {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.navigation-selected {
+    height: 4px;
+    align-self: stretch;
+    background-color: black;
+}
+
+.navigation-unselected {
+    height: 4px;
+    align-self: stretch;
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+
+.navigation-tab:hover .navigation-unselected {
+    background-color: black;
+}

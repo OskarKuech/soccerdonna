@@ -6,7 +6,7 @@ import '../../styles/Frames.css';
 const ArticlePreviewFrame = () => {
     return (
         <div className='article-frame'>
-            <PreviewLarge />
+            <PreviewLarge/>
             <PreviewSmallFrame />
         </div>
     )

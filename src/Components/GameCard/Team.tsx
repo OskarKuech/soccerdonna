@@ -5,12 +5,13 @@ import "../../styles/textstyle.css";
 
 interface TeamProps {
     teamName: string;
+    teamLogo: string;
 }
 
-const Team: React.FC<TeamProps> = ({ teamName }) => {
+const Team: React.FC<TeamProps> = ({ teamName, teamLogo }) => {
     return (
         <div className="team">
-            <TeamLogo />
+            <TeamLogo image={teamLogo}/>
             <p className="verdana12regular centered">{teamName}</p>
         </div>
     );

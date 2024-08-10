@@ -1,0 +1,140 @@
+.stadium {
+    display: flex;
+    width: 1280px;
+    padding: 32px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    background-color: white;
+}
+
+.headline {
+    display: flex;
+    align-items: flex-start;
+}
+
+.headline p {
+    font-family: Verdana;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.stadium-image img{
+    display: flex;
+    width: 1232px;
+    height: 600px;
+    flex-direction: column;
+    align-items: flex-start;
+    object-fit: contain;
+}
+
+.stadium-overview {
+    display: flex;
+    width: 100%;
+    padding: 64px 0px;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.stadium-plan img {
+    display: flex;
+    max-width: 640px;
+    object-fit: contain;
+}
+
+.stadium-info {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+}
+
+.stadium-info-row {
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.stadium-info-row p {
+    font-family: Verdana;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.stadium-info-row p:nth-child(1) {
+    font-weight: 700;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dropdown-text {
+    width: 1232px;
+    display: flex;
+    padding: 8px 0px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdown-sectionname {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.dropdown-sectionname p {
+    font-family: Verdana;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.dropdown-icon img {
+    width: 48px;
+    height: 48px;
+}
+
+.dropdown-content {
+    display: flex;
+    padding: 16px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.dropdown-headline {
+    display: flex;
+    padding: 4px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-headline p {
+    font-family: Verdana;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.dropdown-information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.dropdown-information p {
+    font-family: Verdana;
+    font-size: 18px;
+    margin: 0px;
+}
